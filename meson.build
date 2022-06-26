@@ -2,10 +2,10 @@ project('chip8',
         'c',
         default_options : [
             'c_std=c11',
-            'b_coverage=true',
         ]
 )
 
+# for f in $(find . -name "*.c" | sort); do echo "'$f',"; done
 src_chip8 = files([
     './src/decode.c',
     './src/display_sdl.c',

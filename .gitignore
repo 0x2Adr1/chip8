@@ -1,1 +1,3 @@
-builddir
+builddir/
+subprojects/SDL2-2.0.20/
+subprojects/packagecache/
